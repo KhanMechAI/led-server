@@ -47,6 +47,7 @@ def create_mel_bank():
                                                freq_max=config.MAX_FREQUENCY,
                                                num_fft_bands=samples,
                                                sample_rate=config.MIC_RATE)
+
 samples = None
 mel_y = None
 mel_x = None
